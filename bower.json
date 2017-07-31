@@ -1,0 +1,15 @@
+{
+  "name": "bacon.combines",
+  "description": "Special purpose applicative Bacon combinator",
+  "main": "dist/bacon.combines.js",
+  "license": "MIT",
+  "keywords": [
+    "bacon"
+  ],
+  "homepage": "https://github.com/calmm-js/bacon.combines",
+  "dependencies": {
+    "infestines": "^0.4.4",
+    "bacon": "^3.7.0"
+  },
+  "ignore": ["*", "!*.md", "!dist/*"]
+}
