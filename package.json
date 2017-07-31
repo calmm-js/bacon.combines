@@ -1,6 +1,6 @@
 {
   "name": "bacon.combines",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Special purpose applicative Bacon combinator",
   "main": "dist/bacon.combines.cjs.js",
   "module": "dist/bacon.combines.es.js",
