@@ -9,7 +9,7 @@
   "homepage": "https://github.com/calmm-js/bacon.combines",
   "dependencies": {
     "infestines": "^0.4.4",
-    "bacon": "^3.7.0"
+    "bacon": "^0.7.94"
   },
   "ignore": ["*", "!*.md", "!dist/*"]
 }
