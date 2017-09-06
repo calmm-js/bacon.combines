@@ -1,10 +1,10 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('baconjs'), require('infestines')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'baconjs', 'infestines'], factory) :
-	(factory((global.bacon = global.bacon || {}, global.bacon.combines = global.bacon.combines || {}),global.Bacon,global.I));
+	(factory((global.bacon = global.bacon || {}, global.bacon.combines = {}),global.Bacon,global.I));
 }(this, (function (exports,Bacon,infestines) { 'use strict';
 
-Bacon = 'default' in Bacon ? Bacon['default'] : Bacon;
+Bacon = Bacon && Bacon.hasOwnProperty('default') ? Bacon['default'] : Bacon;
 
 var Observable = Bacon.Observable;
 function countArray(template) {

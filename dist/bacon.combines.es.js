@@ -100,4 +100,5 @@ var bacon_combines = function () {
   }
 };
 
-export { lift1Shallow, lift1, lift };export default bacon_combines;
+export { lift1Shallow, lift1, lift };
+export default bacon_combines;
