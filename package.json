@@ -36,7 +36,7 @@
     "babel-register": "^6.26.0",
     "codecov": "^2.3.0",
     "eslint": "^4.6.1",
-    "baconjs": "^0.7.95",
+    "baconjs": ">=0.7.95 <2.0",
     "mocha": "^3.5.0",
     "nyc": "^11.2.1",
     "ramda": "^0.24.1",
@@ -50,6 +50,6 @@
     "infestines": "^0.4.4"
   },
   "peerDependencies": {
-    "baconjs": "^0.7.94"
+    "baconjs": ">=0.7.95 <2.0"
   }
 }
